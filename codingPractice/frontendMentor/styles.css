@@ -1,0 +1,65 @@
+/**
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+**/
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+.card{
+    width: 24rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    /* height: auto; */
+    border-radius: 15px;
+}
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.qrCode {
+    border-radius: 15px;
+}
+
+div{
+    display: block;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    /* padding: 1rem; */
+}
+.title {
+    color: hsl(218, 44%, 22%);
+    font-size: 26px;
+    font-weight: 700;
+}
+.subtitle {
+    color: hsl(220, 15%, 55%);
+    font-size: 18px;
+    margin: 0px 10px;
+}

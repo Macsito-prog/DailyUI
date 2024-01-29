@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to bottom, #1a2b3c, #5e6f7f);
+}
+
+/* Centered container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+.form-container {
+    width: 300px;
+}
+
+/* Form input fields */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Form submit button */
+.form-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit:hover{
+    background-color: #45a049;
+    text-decoration: underline;
+}
+
+/* Form error message */
+.form-error {
+    color: red;
+    margin-top: 5px;
+}
+
+.form-title{
+    color: green;
+    font-size: 40px;
+
+}
+    
+.social-network {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+}
